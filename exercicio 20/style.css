@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+a:visited{
+    color: red
+}
+a:hover{
+    background-color: rgb(27, 60, 248);
+
+}
+a::before{
+
+    content: '→';
+
+}
+div{
+    
+     background-color: rgb(131, 192, 32);
+     text-align: top;
+     display: inline-block;
+     width: 300px;
+
+}
+
+
