@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +7,15 @@
 <style>
     body{
         height: 100vh;
-        background-color: aqua;
+       /* background-color: aqua;
         background-image: url(imagens-cap19/wallpaper002.jpg);
         background-repeat: no-repeat;
         background-position: center center;
-        background-size: cover
+        background-size: cover;
+        background-attachment: fixed;
+        */
+        background: aqua url(imagens-cap19/wallpaper002.jpg) center center no-repeat fixed;
+        background-size: cover;
 
 
     }
@@ -22,6 +26,22 @@
         width: 300px;
         border-radius: 10px;
     }
+    #container{
+        background-color: chocolate;
+        height: 400px;
+        width: 600px;
+        position: relative;
+
+    }
+    #bloco{
+        position: absolute;
+        background-color: blue;
+        height: 100px;
+        width: 200px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
 
 
 </style>
@@ -29,7 +49,12 @@
 <body>
     <main>
     <h1>Teste</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, illum. Expedita iste magni suscipit veniam consequatur reiciendis, placeat libero asperiores quaerat. Totam incidunt officiis, cupiditate aut tempora nemo repellat? Doloribus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, illum. Expedita iste magni suscipit veniam consequatur reiciendis, placeat libero asperiores quaerat. Totam incidunt officiis, cupiditate aut tempora nemo repellat? Doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eaque veniam cumque </p>
 </main>
+<div id="container">
+    <div id="bloco">
+
+    </div>
+</div>
 </body>
 </html>

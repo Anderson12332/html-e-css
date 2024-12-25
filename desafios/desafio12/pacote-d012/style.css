@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --cor1: white;
+    --cor2: black;
+    --font-destaque: "Passion One", serif;
+    --font-padrao: "Sriracha", serif; 
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*//////////////////HEADER///////////////////////*/
+header{
+    
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 60px;
+}
+header > h1{
+    font-family: var(--font-destaque);
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+header>p{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+} 
+/*/////////////////////////////////////////*/
+/*//////////////MAIN///////////////////////////*/
+
+main{
+    
+    font-family: var(--font-padrao);
+
+    
+}
+section > p{
+    text-align: left;
+    font-size: 40px;
+    margin-top: 100px;
+    padding: 30px;
+    margin: 10px;
+}
+.com-imagen > p{
+    display: inline-block;
+    padding: 30px;
+    margin: 10px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.233);
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
+    
+   
+  
+}
+section{
+    display: block;
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+}
+#joaninha{
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+#cartas{
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+
+   
+}
