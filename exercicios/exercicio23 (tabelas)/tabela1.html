@@ -16,12 +16,13 @@
             border-collapse: collapse;
             
         }
-        tr{
-            background-color: grey;
+        .coluna1{
+            background-color: yellow;
         }
-        tr.linha{
-            background-color: aqua;
+        .coluna2{
+            background-color: green;
         }
+
         
         td{
             border: 1px solid black;
@@ -29,9 +30,6 @@
             vertical-align: top;
             padding: 8px;
             
-        }
-        td.importante{
-            background-color: burlywood;
         }
 
 
@@ -41,6 +39,12 @@
     <h1>Primeira Tabela</h1>
     
     <table>
+        <colgroup>
+            <col class="coluna1">
+            <col class="coluna2">
+            <col class="coluna3">
+            
+        </colgroup>
         <tr class=" linha">
             <td>A1</td>
             <td class="importante">B1</td>
