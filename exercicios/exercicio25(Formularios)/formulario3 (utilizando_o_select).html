@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tela.css" media="screen">
+    <link rel="stylesheet" href="impressão.css" media="print">
+    <title>Utilizando o select</title>
+</head>
+<body>
+    <h1>Utilizando o select</h1>
+    <form action="arquivo.php" method="post" autocomplete="on">
+        <label for="iest">Estados</label>
+        <select name="Estados" id="iest">
+            <option value="vazio"></option>
+            <optgroup label="Nordeste" >
+                <option value="MA">Maranhão</option>
+                <option value="PA">Pará</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="PI">Piaui</option>
+            </optgroup>
+            <optgroup label="Sudeste">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+            </optgroup>
+        </select>
+
+        <p><label for="inivel">Nivel</label>
+        <input type="text" name="nivel" id="inivel" list="categoria">
+    <datalist id="categoria">
+        <option value="amador">Amador</option>
+        <option value="medio">Medio</option>
+        <option value="avançado">Avançado</option>
+        <option value="profissional">Proficional</option>
+    </datalist></p>
+    <p>
+        <label for="imsg">Mensagen</label>
+        <textarea name="msg" id="imsg"></textarea>
+    </p>
+
+
+    </form>
+    
+</body>
+</html>

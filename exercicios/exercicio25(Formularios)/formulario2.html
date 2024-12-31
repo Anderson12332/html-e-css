@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario2</title>
+</head>
+<body>
+    <h1>Formulario com opções de marcar </h1>
+    <form action="arquivo.php" method="post">
+        <fieldset>
+            <legend>Esportes</legend>
+
+        <input type="checkbox" name="esportes" id="inatacao"><label for="inatacao">Natação</label> <br>
+        <input type="checkbox" id="ivolei"><label for="ivolei">Vôlei</label> <br>
+        <input type="checkbox" id="ifutsal"><label for="ifutsal">Futsal</label> <br>
+    </fieldset>
+    <fieldset>
+        <legend>Ano de nascimento</legend>
+        <input type="radio" name="nascimento" id="i2007"> <label for="i2007">2007</label>
+        <input type="radio" name="nascimento" id="i2008"> <label for="i2008">2008</label>
+        <input type="radio" id="i2009" name="nascimento"> <label for="i2009">2009</label>
+    </fieldset>
+    escolha uma cor:<input type="color" name="cores" id="icores">
+     e adicione um arquivo <input type="file"> <br>
+     volume: <input type="range">
+    <p>
+        <input type="submit">
+        <input type="reset">
+    </p>
+    </form>
+    
+</body>
+</html>
