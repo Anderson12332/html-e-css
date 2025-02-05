@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 180vh;
+}
+
+header{
+    background-color: black;
+    color: whitesmoke;
+    padding: 6px;
+    margin: auto;
+    border: solid 3px rebeccapurple;
+    text-align: center;
+}
+#posicao-estatica{
+    position: static;
+    text-align: center;
+    border: solid 3px black;
+}
+#posicao-relativa{
+    position: relative;
+    background-color: aqua;
+    border: solid 3px rgb(2, 95, 2);
+    top: 1300px;
+    text-align: center;
+}
+.elemento-pai{
+    position: relative;
+    border: solid 3px red;
+    width: 800px;
+    height: 400px;
+    text-align: center;
+}
+#posicao-absoluta{
+    position: absolute;
+    border: solid 3px rgb(41, 178, 196);
+    text-align: center;
+    width: 300px;
+    top: 50px;
+    right: 0px;
+}
+#posicao-fixa{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    border: solid 3px purple;
+    text-align: center;
+    top: 400px;
+}
+#posicao-sticky{
+    position: sticky;
+    width: 100vw;
+    top: 0;
+    border: solid 2px rgb(64, 64, 233);
+}

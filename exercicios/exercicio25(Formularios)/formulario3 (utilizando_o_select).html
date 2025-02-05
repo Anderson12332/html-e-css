@@ -11,7 +11,7 @@
     <form action="arquivo.php" method="post" autocomplete="on">
         <label for="iest">Estados</label>
         <select name="Estados" id="iest">
-            <option value="vazio"></option>
+            <option value="" selected disabled>Selecione</option>
             <optgroup label="Nordeste" >
                 <option value="MA">Maranhão</option>
                 <option value="PA">Pará</option>
@@ -36,9 +36,25 @@
         <label for="imsg">Mensagen</label>
         <textarea name="msg" id="imsg"></textarea>
     </p>
-
-
+    <input type="submit" value="objeto">
     </form>
+
+    <h2>Mais informações</h2>
+    <details>
+        <summary>Nordeste</summary>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem sint in beatae adipisci est. Nam impedit omnis eum, quae pariatur adipisci tempora at sint nihil illo optio, aliquid, quasi itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veniam ipsa ipsam dolorem. Molestiae quo commodi similique beatae molestias, corrupti dolorum reiciendis non nisi inventore sequi, sint officia voluptates unde.</p>
+    </details>
+    <details>
+        <summary>Sudeste</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste velit corporis quisquam a aliquam repudiandae aliquid, delectus quibusdam libero repellendus perspiciatis necessitatibus, soluta quam, quidem dolorum impedit enim harum?</p>
+    </details>
     
+    <h2>Utilizando datalist</h2>
+    <input list="carro" name="carro" placeholder="Qual seu carro">
+    <datalist id="carro">
+        <option value="gol"></option>
+        <option value="kwid"></option>
+
+    </datalist>
 </body>
 </html>
